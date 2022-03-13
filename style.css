@@ -216,11 +216,22 @@ header .submitbutton{
   gap: 32px;
 }
 
+
+.middlepart ul .firstmiddle.li{
+  background-color: #F2F2F2;
+  border-box
+  
+}
+
+
 .middlepart .filterpart{
   display: flex;
   justify-content: space-between;
   gap: 15px;
 }
+
+
+
 
 
 .grid{
@@ -230,15 +241,18 @@ header .submitbutton{
   grid-row-gap: 40px;
 }
 
-.grid-item{
+
+
+.grid-item p{
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .grid-text{
  
-  /* font-size: 18px; */
+  font-size: 18px;
   line-height: 24px;  
   color:#222222 ;
-  text-align: left;
+  
 
 }
