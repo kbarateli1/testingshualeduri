@@ -376,3 +376,31 @@ header .submitbutton{
     padding-top: 12px;
 
 }
+
+
+/* footerpart */
+
+.heading{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 200px;
+  gap: 200px;
+  padding-left: 200px;
+  padding-right: 180px;
+}
+
+
+
+.horizontalrow{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "row1 row2 row5 row6"
+    "row1 row3 row5 row7"
+    "row1 row4 row5 row8"
+    ;
+
+  row-gap: 20px;
+  padding-left: 200px;
+}
