@@ -26,7 +26,9 @@ body{
 .container .sidebar{
     background-color: black;
     padding: 40px 30px;
+    height: 1080px;
     /*# width: 300px;
+    
     
    
     /* position: fixed; */
@@ -221,7 +223,7 @@ header .submitbutton{
 
 
 
-.middle.li p{
+.middleparttop .middle.li{
   
   width: 56px;
   height: 56px;
@@ -230,8 +232,10 @@ header .submitbutton{
   border-radius: 12px;
   background-color:#F2F2F2;
   text-align: center;
+  
 
 }
+
 
 
 .middleparttop .filterpart{
@@ -264,6 +268,7 @@ header .submitbutton{
 .grid-item img{
   width: 289px;
   height: 210px;
+ 
 
 }
 
@@ -329,8 +334,19 @@ header .submitbutton{
   padding-left: 180px;
 }
 
+
+.grid-item2{
+  
+  display: flex;
+  flex-direction: column;            
+  justify-content: space-between;
+  
+}
+
+
 .designers .onlinedesigners .grid-item2 p{
   text-align: center;
+ 
 }
 
 
@@ -344,6 +360,7 @@ header .submitbutton{
   color: #222;
   font-size: 12px;
   opacity: 0.6;
+  padding-top: 10px;
 }
  
 
@@ -378,7 +395,9 @@ header .submitbutton{
 }
 
 
-/* footerpart */
+
+
+
 
 .heading{
   display: grid;
@@ -403,3 +422,34 @@ header .submitbutton{
 .heading .directories .design-assets{
   padding: 20.5px 0px 18px 0px;
 }
+
+
+
+/* footerpart */
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-socialmedia{
+  width: 1235px;
+  height: 24px;
+  padding-top: 113px;
+  padding-left: 180px;
+  
+}
+.footer-icon{
+  width: 24px;
+  height: 24px;
+  
+}
+.smartacademy{
+  color: #222222;
+  padding-top: 113px;
+  padding-right: 180px;
+  opacity: 1;
+}
+
+
+
+
+
