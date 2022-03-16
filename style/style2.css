@@ -25,9 +25,11 @@ body{
 
 .container .sidebar{
     background-color: black;
-    padding: 40px 30px;
     height: 1080px;
+    padding: 40px 30px;
+    
     /*# width: 300px;
+    
     
    
     /* position: fixed; */
@@ -45,7 +47,6 @@ body{
     justify-content: space-between;
     
 }
-
 
 
 .container .sidebar .icons li{
@@ -175,12 +176,21 @@ form.example::after {
 header .topright img{
   width: 24px;
   height: 24px;
+  opacity: 1;
+  
 }
+
+
 
 header .topright .account{
   width: 56px;
   height: 56px;
+  border: 2px solid #E7E7E7;
+  border-radius: 28px;
+  opacity: 1;
+  padding: 16px;
 }
+
 
 
 header .submitbutton{
@@ -195,203 +205,71 @@ header .submitbutton{
 }
 
 
-/* middlepart */
 
-.middlepart{
-  width: 1231px;
-  padding: 87px 282px 70px 182px;
- 
-}
 
-.middleparttop{
-  /* padding: 50px 150px; */
-  display: flex;
-  justify-content: space-between;
-  width: 1132px;
+
+.table {
+  padding-left: 152px;
+  width: 1086px;
+  max-width: 100%;
+  
+  
+
   
 }
 
+.table th,
+.table td {
+  padding: 0.5rem;
+  vertical-align:auto;
+  border-top: 1px solid #FFFFFF;
+}
 
-.middleparttop ul{
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #FFFFFF;
+}
+
+.table .table {
+  background-color: #FFFFFF;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 1rem;
+}
+
+.table-bordered {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #eceeef;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
 }
 
 
 
 
 
-.middleparttop .middle.li{
-  
-  width: 56px;
-  height: 56px;
- 
-  padding-top: 16px;
-  border-radius: 12px;
-  background-color:#F2F2F2;
-  text-align: center;
-  
-
-}
-
-
-
-.middleparttop .filterpart{
-  display: flex;
-  justify-content: space-between;
-  gap: 15px;
-}
 
 
 
 
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 40px;
-  padding-bottom: 70px;
-  
-
-}
 
 
 
-.grid-item p{
-  text-align: center;
-
-}
 
 
-.grid-item img{
-  width: 289px;
-  height: 210px;
- 
-
-}
-
-
-
-.grid-text{
- width: 289px;
- height: 52px;
-  font-size: 18px;
-  line-height: 24px;  
-  color:#222222 ;
-}
-
-.grey-border{
-  
-    height: 56px;
-    width: 289px;
-    border-radius: 12px;
-    background-color: #F2F2F2;
-    text-align: center;
-    padding-top: 16px;
-    font-size: 16px;
-    color: #222222;
-   
-    
-    
-   
-}
-
-
-/* top designers */
-
-.designers{
-  padding-top: 70px;
-  /* width: 100%; */
-  width: 1600px;
-  
-}
-
-.designers header{
-  display: grid;
-  grid-template-columns: 199px 47px;
-  padding-left: 180px;
-  padding-bottom: 137px;
-  
-}
-
-
-.designers header h1{
-  font-size: 32px;
-  text-align: left;
-}
-
-
-.onlinedesigners{
-  display: grid;
-
-  grid-template-columns: 132px 132px 132px 132px 132px 132px 132px 132px;
-  grid-column: auto-fit;
-  grid-gap: 55px;
-  height: 132px;
-  column-gap: 25px;
-  padding-left: 180px;
-}
-
-
-.grid-item2{
-  
-  display: flex;
-  flex-direction: column;            
-  justify-content: space-between;
-  
-}
-
-
-.designers .onlinedesigners .grid-item2 p{
-  text-align: center;
- 
-}
-
-
-.designers .onlinedesigners .grid-item2 .name{
-  color: #222222;
-  font-size: 16px;
-}
-
-
- .designers .onlinedesigners .grid-item2 .city{
-  color: #222;
-  font-size: 12px;
-  opacity: 0.6;
-  padding-top: 10px;
-}
- 
-
-.followbox{
-  display: grid;
-  grid-template-columns: 132px 132px 132px 132px 132px 132px 132px 132px;
-  gap: 25px;
-}
-
-
-.follow{
-  width: 132px;
-  height: 44px;
-  border-radius: 12px;
-  text-align: center;
-  border: 1px solid #D8D8D8;
-  color: #222222;
-  padding-top: 12px;
-}
-
-.followboxgray{
-    width: 132px;
-    height: 44px;
-    border-radius: 12px;
-    text-align: center;
-    background-color: #F2F2F2;
-   
-   
-    color: #222222;
-    padding-top: 12px;
-
-}
 
 
 
@@ -421,6 +299,7 @@ header .submitbutton{
 .heading .directories .design-assets{
   padding: 20.5px 0px 18px 0px;
 }
+
 
 
 
