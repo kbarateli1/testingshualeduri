@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+
+
+
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -16,7 +22,8 @@ body{
 .container{
     display: flex;
     /* position: relative; */
-    width: 1920px;
+    max-width: 1920px
+    
 }
 
 
@@ -24,189 +31,164 @@ body{
 /* sidebar styles */
 
 .container .sidebar{
-    background-color: black;
-    height: 1080px;
-    padding: 40px 30px;
-    
-    /*# width: 300px;
-    
-    
-   
-    /* position: fixed; */
-   
+  background-color: black;
+  padding: 40px 30px;
+  height: 1080px;
+  max-width: 300px;
+  width: 100%;
+  
+ 
+  /* position: fixed; */
+ 
 }
 
 .container h2{
-    color: #fff;
-    text-align: left;
-    /* margin-bottom: 30px; */
+  color: #fff;
+  text-align: left;
+  /* margin-bottom: 30px; */
 }
 
 .top{
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
+  
 }
+
 
 
 .container .sidebar .icons li{
-    padding-top: 50px;
-    border-bottom: 1px solid #bdb8d7;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-    border-top: 1px solid rgba(255,255,255,0.05);
-    color: #fff;
-    /* display: block; */
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-    gap: 5px;
-    
-  }   
-
-
-  .container .sidebar .icons li:hover{
-    background-color: #FF2288;
-  }
-
-
- 
-  .container .sidebar h6{
-    font-size: 14px;
-    color: #FFFFFF;
-    /* width: 94px;
-    height: 19px; */
-    text-align: center;
-  }
-
-
-  .container .sidebar .socialmedia h5{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 12px;
-    color: #FFFFFF;
-    /* width: 66px;
-    height: 16px; */
-    text-transform: uppercase;
-    text-align:center;
-  
-  }
-
-
- .container .sidebar .profilephotos li{
-   padding: 25px;
+  padding-top: 50px;
   border-bottom: 1px solid #bdb8d7;
   border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
   color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly;
-    justify-items: center; */
-    column-gap: 15px;
-    align-items: center;
- }
-
-
-  
- /* header styles */
-
-
- .headerandtable{
-   height: 1080px;
- }
-
- header{
   display: flex;
-  justify-content: space-between;
-  padding-top: 30px;
-  padding-left: 25px;
-  width: 1400px;
+  justify-content: space-evenly;
+  justify-items: center;
+  gap: 5px;
+  
+}   
+
+
+.container .sidebar .icons li:hover{
+  background-color: #FF2288;
+}
+
+
+.container .sidebar h6{
+  font-size: 14px;
+  color: #FFFFFF;
+  /* width: 94px;
+  height: 19px; */
+  text-align: center;
+}
+
+
+.container .sidebar .socialmedia h5{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  color: #FFFFFF;
+  /* width: 66px;
+  height: 16px; */
+  text-transform: uppercase;
+  text-align:center;
 
 }
 
 
+.container .sidebar .profilephotos li{
+ padding: 25px;
+border-bottom: 1px solid #bdb8d7;
+border-bottom: 1px solid rgba(0,0,0,0.05);
+color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly;
+  justify-items: center; */
+  column-gap: 15px;
+  align-items: center;
+}
+
+
+
+/* header styles */
+
+header{
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+padding-left: 25px;
+/* max-width: 1400px;
+width: 100%; */
+
+}
 
 
 .searchdiv{
-  display: flex;
-  justify-content: space-between;
-  
+display: flex;
+justify-content: space-between;
+
 }
 
 form.example input[type=search] {
- 
-  padding: 10px;
-  font-size: 17px;
-  border: none;
-  background: #f1f1f1;
+
+padding: 10px;
+font-size: 17px;
+border: none;
+background: #f1f1f1;
 
 }
 
 form.example button {
- 
-  padding-right: 10px;
-  color: white;
-  font-size: 17px;
- border: none;
-  cursor: pointer;
+
+padding-right: 10px;
+color: white;
+font-size: 17px;
+border: none;
+cursor: pointer;
 }
 
 
 form.example button:hover {
-  background: #0b7dda;
+background: #0b7dda;
 }
 
 form.example::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
-
-
 
 
 .topright{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+
 }
 
- header .topright h5{
-   color: #FF2288;
- }
+header .topright h5{
+ color: #FF2288;
+}
 
 header .topright img{
-  width: 24px;
-  height: 24px;
-  opacity: 1;
-  
-}
-
-
-
-header .topright .account{
-  width: 56px;
-  height: 56px;
-  border: 2px solid #E7E7E7;
-  border-radius: 28px;
-  opacity: 1;
-  padding: 16px;
+width: 24px;
+height: 24px;
 }
 
 
 
 header .submitbutton{
 
-  border: none;
-  background-color: #FF2288;
-  color: white;
-  border-radius: 20px;
-  text-align: center;
-  padding: 15px 40px;
-  text-transform: uppercase;
+border: none;
+background-color: #FF2288;
+color: white;
+border-radius: 20px;
+text-align: center;
+padding: 15px 40px;
+text-transform: uppercase;
 }
-
-
 
 
 
@@ -295,44 +277,62 @@ header .submitbutton{
 
 
 
+.followbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  padding-top: 100px;
+}
+ 
+ .follow{
+   /* max-width: 132px; */
+   height: 44px;
+   border-radius: 12px;
+   text-align: center;
+   border: 1px solid #D8D8D8;
+   color: #222222;
+   padding-top: 12px;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
-
+ .follow:hover{
+   background-color: #494848;
+ }
+ 
+ .followboxgray{
+     max-width: 132px;
+     height: 44px;
+     border-radius: 12px;
+     text-align: center;
+     background-color: #494848;
+    
+     color: #222222;
+     padding-top: 12px;
+ 
+ }
+   
 
 .heading{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* padding-top: 200px; */
-  gap: 200px;
-  padding-left: 200px;
-  padding-right: 180px;
-}
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding-top: 50px;
+gap: 200px;
+padding-left: 152px;
+padding-top: 240px;
 
+}
 
 
 .heading h4{
-  padding-bottom: 36px;
+padding-bottom: 36px;
 }
 
 .heading .hiredesignersdiv .brands{
- 
-  padding: 18px 0;
+padding: 18px 0;
 }
 
 .heading .directories .design-assets{
-  padding: 20.5px 0px 18px 0px;
+padding: 20.5px 0px 18px 0px;
 }
-
 
 
 
@@ -340,27 +340,29 @@ header .submitbutton{
 footer{
   display: flex;
   justify-content: space-between;
+  
 }
+
+
 .footer-socialmedia{
-  width: 1235px;
+  max-width: 1235px;
   height: 24px;
-  padding-top: 113px;
-  padding-left: 180px;
-  
+ 
+  padding-left: 152px;
+
 }
+
 .footer-icon{
-  width: 24px;
+  max-width: 24px;
   height: 24px;
-  
+
 }
 .smartacademy{
-  color: #222222;
-  padding-top: 113px;
-  padding-right: 180px;
-  opacity: 1;
+color: #222222;
+padding-top: 113px;
+/* padding-right: 180px; */
+opacity: 1;
 }
-
-
 
 
 
