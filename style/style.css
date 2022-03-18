@@ -114,9 +114,6 @@ body{
   
  /* header styles */
 
-
-
-
  header{
   display: flex;
   justify-content: space-between;
@@ -125,8 +122,6 @@ body{
   width: 1400px;
 
 }
-
-
 
 
 .searchdiv{
@@ -163,8 +158,6 @@ form.example::after {
   clear: both;
   display: table;
 }
-
-
 
 
 .topright{
@@ -225,20 +218,14 @@ header .submitbutton{
 }
 
 
-
-
-
 .middleparttop .middle.li{
   
   width: 56px;
   height: 56px;
- 
   padding-top: 16px;
   border-radius: 12px;
   background-color:#F2F2F2;
   text-align: center;
-  
-
 }
 
 
@@ -248,8 +235,6 @@ header .submitbutton{
   justify-content: space-between;
   gap: 15px;
 }
-
-
 
 
 .grid{
@@ -262,8 +247,6 @@ header .submitbutton{
 
 }
 
-
-
 .grid-item p{
   text-align: center;
 
@@ -273,9 +256,36 @@ header .submitbutton{
 .grid-item img{
   width: 289px;
   height: 210px;
- 
-
+  
+  
 }
+
+
+ .middlepart .grid .grid-item .firstgrid-image{
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  right: 25px;
+ 
+}
+
+.middlepart .grid .grid-item .plusicon{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 225px;
+} 
+
+
+
+.middlepart .grid .grid-item .hearticon{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 250px;
+} 
+
+
 
 
 
@@ -296,10 +306,7 @@ header .submitbutton{
     text-align: center;
     padding-top: 16px;
     font-size: 16px;
-    color: #222222;
-   
-    
-    
+    color: #222222;  
    
 }
 
