@@ -225,15 +225,25 @@ header .submitbutton{
   
 }
 
+
+
+
 .table tbody tr{
   text-align: left;
 }
 
 .table th{
   text-align: left;
-
   
 }
+
+.table tbody .pinktr{
+  color: #FF2288;
+}
+
+
+
+
 
 
 
@@ -263,9 +273,7 @@ header .submitbutton{
   padding: 1rem;
 }
 
-/* .table-bordered {
-  border: 1px solid #eceeef;
-} */
+
 
 .table-bordered th,
 .table-bordered td {
@@ -277,6 +285,11 @@ header .submitbutton{
   border-bottom-width: 2px;
 }
 
+
+.table tr:hover {
+  background-color: gray;
+
+}
 
 
 
