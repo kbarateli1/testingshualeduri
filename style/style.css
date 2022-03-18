@@ -23,6 +23,8 @@ body{
     display: flex;
     /* position: relative; */
     width: 1920px;
+    height: 2189px;
+    width: 319px;
 }
 
 
@@ -60,7 +62,6 @@ body{
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(255,255,255,0.05);
     color: #fff;
-    /* display: block; */
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
@@ -144,7 +145,7 @@ form.example button {
   padding-right: 10px;
   color: white;
   font-size: 17px;
- border: none;
+  border: none;
   cursor: pointer;
 }
 
@@ -218,14 +219,19 @@ header .submitbutton{
 }
 
 
-.middleparttop .middle.li{
-  
-  width: 56px;
-  height: 56px;
-  padding-top: 16px;
-  border-radius: 12px;
-  background-color:#F2F2F2;
+.middleparttop .amiddle-li{
+  background-color: rgb(196, 187, 187);
+  border-radius: 20px;
   text-align: center;
+  padding: 15px 40px;
+}
+
+
+.middleparttop .middle-li{
+ 
+  border-radius: 20px;
+  text-align: center;
+ 
 }
 
 
@@ -269,16 +275,17 @@ header .submitbutton{
  
 }
 
+
+.middlepart .grid .grid-item .secondgrid-image{
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  right: 25px;
+ 
+}
+
+
 .middlepart .grid .grid-item .plusicon{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 225px;
-} 
-
-
-
-.middlepart .grid .grid-item .hearticon{
   position: absolute;
   width: 24px;
   height: 24px;
@@ -287,7 +294,12 @@ header .submitbutton{
 
 
 
-
+ .middlepart .grid .grid-item .hearticon{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 280px;
+} 
 
 .grid-text{
  width: 289px;
@@ -298,7 +310,6 @@ header .submitbutton{
 }
 
 .grey-border{
-  
     height: 56px;
     width: 289px;
     border-radius: 12px;
@@ -307,7 +318,6 @@ header .submitbutton{
     padding-top: 16px;
     font-size: 16px;
     color: #222222;  
-   
 }
 
 
@@ -317,7 +327,6 @@ header .submitbutton{
   padding-top: 70px;
   /* width: 100%; */
   width: 1600px;
-  
 }
 
 .designers header{
