@@ -33,7 +33,7 @@ body{
 .container .sidebar{
   background-color: black;
   padding: 40px 30px;
-  height: 1080px;
+  height: 100%;
   max-width: 300px;
   
  
@@ -52,7 +52,6 @@ body{
   justify-content: space-between;
   
 }
-
 
 
 .container .sidebar .icons li{
@@ -100,10 +99,10 @@ body{
 
 
 .container .sidebar .profilephotos li{
- padding: 25px;
-border-bottom: 1px solid #bdb8d7;
-border-bottom: 1px solid rgba(0,0,0,0.05);
-color: #fff;
+  padding: 25px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  color: #fff;
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-evenly;
@@ -123,7 +122,6 @@ header{
     padding-left: 25px;
     /* max-width: 1231px; */
     width: 100%;
-
 }
 
 
@@ -143,12 +141,11 @@ background: #f1f1f1;
 }
 
 form.example button {
-
-padding-right: 10px;
-color: white;
-font-size: 17px;
-border: none;
-cursor: pointer;
+  padding-right: 10px;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -164,10 +161,9 @@ display: table;
 
 
 .topright{
-display: flex;
-flex-wrap: wrap;
-gap: 30px;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 header .topright h5{
@@ -243,7 +239,7 @@ header .submitbutton{
 }
 
 
-.middlepart .middleparttop ul{
+.middlepart .middleparttop .middle-ul{
   display: flex;
   justify-content: space-between;
   gap: 25px;
@@ -275,7 +271,7 @@ header .submitbutton{
   text-align: center;
 }
 
-.middlepart .middleparttop ul li:hover{
+.middlepart .middleparttop .middle-ul li:hover{
   background-color: rgb(196, 187, 187);
 }
 
@@ -291,10 +287,16 @@ header .submitbutton{
 }
 
 
-.grid-item p{
-text-align: center;
 
+.grid-text{
+  /* font-size: 18px; */
+  /* line-height: 24px;   */
+  text-align: left;
+  color:#222222 ;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
+
 
 
 .grid-item img{
@@ -302,8 +304,8 @@ max-width: 289px;
 width: 100%;
 max-height: 210px;
 height: 100%;
-display: flex;
-justify-content: space-between;
+/* display: flex;
+justify-content: space-between; */
 
 
 }
@@ -332,16 +334,7 @@ justify-content: space-between;
 } 
 
 
-.grid-text{
-  
 
-  font-size: 18px;
-  line-height: 24px;  
-  text-align: left;
-  color:#222222 ;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .grey-border{
   height: 56px;
@@ -419,12 +412,12 @@ justify-content: space-between;
     
 
 
-   .followbox{
+   /* .followbox{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
      gap: 25px;
      padding-top: 100px;
-   }
+   } */
     
     .follow{
       /* max-width: 132px; */
@@ -440,7 +433,10 @@ justify-content: space-between;
       background-color: #494848;
     }
     
+
+
     
+
 .heading{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -448,6 +444,7 @@ justify-content: space-between;
   gap: 200px;
   /* padding-left: 200px;
   padding-right: 180px; */
+  padding-top: 200px;
 }
 
 
