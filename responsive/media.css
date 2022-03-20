@@ -1,0 +1,82 @@
+@media(max-width:1024px){
+    .container{
+        max-width: 100%;
+    }
+    .sidebar{
+        max-width: 100%;
+        height: 50%;
+    }
+
+    .sidebar .top{
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar .top h2{
+        display: none;
+        
+    }
+  
+    .sidebar .socialmedia li p{
+        display: none;
+    }
+
+    .firstsection{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+ 
+
+    .firstsection header {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+   
+    .firstsection header .topright span{
+        display: none;
+
+    }
+
+    .firstsection header .topright submitbotton{
+            border: none;
+            background-color: #FF2288;
+            color: white;
+            border-radius: 20px;
+            text-align: center;
+            padding: 10px 30px;
+            text-transform: uppercase;
+    }
+
+
+     .firstsection .middlepart{
+        max-width: 100%;
+    }
+
+    .firstsection .middlepart .middleparttop {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .grid .plusicon{
+        display: none;
+    }
+
+    .grid .hearticon{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+   
+}
