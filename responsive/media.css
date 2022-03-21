@@ -1,275 +1,257 @@
-@media(max-width:1024px){
-    .container{
-        max-width: 100%;
-    }
-    .sidebar{
-        max-width: 100%;
-        height: 50%;
-        padding: 0px;
-    }
-    .sidebar .top{
-        display: flex;
-        justify-content: center;
-    }
-    .sidebar .top h2{
-        display: none;  
-    }
-    .sidebar h6{
-        font-size: 10px;
-    }
-    .container .sidebar .socialmedia h5{
-        font-size: 8px;
-    }
-    .firstsection{
-        max-width: 100%;
-        /* display: flex;
-        flex-wrap: wrap; */
-    }
-    .firstsection header{
-        max-width: 100%;
-        /* display: flex;
-        flex-wrap: wrap; */
-    }
-    form.example input[type=search] {
-        padding: 0px;
-        font-size: 14px;
-        border: none;
-        background: #f1f1f1;
-    }
-    .firstsection header .topright{
-        display: flex;
-        flex-wrap: wrap;  
-    }
-
-    .firstsection header .topright img{
-        width: 16px;
-        height: 16px;
-    }
-    .firstsection header .topright .account{
-        width: 30px;
-        height: 30px;
-    }
-    .firstsection header {
-        max-width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap:wrap;
-        padding-left: 0px;
-    }
-    .firstsection header .topright span{
-        display: none;
-    }
-    .firstsection header .topright{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .firstsection header .topright .submitbutton{
-            border: none;
-            background-color: #88556c;
-            font-size: 8px;
-            color: white;
-            border-radius: 6px;
-            text-align: center;
-            width: 100%;
-            padding: 5px 15px;           
-    }
-     .firstsection .middlepart{
-        max-width: 100%;
-    }
-    .firstsection .middlepart .middleparttop {
-        max-width: 100%;
-        display: flex;
-        justify-content: space-between;
-        gap: 0px;
-       
-    }
-    .firstsection .middlepart .middleparttop .middle-ul{
-        gap: 10px;
-        max-width: 100%;
-      }
-    .firstsection .middlepart .middleparttop .filterpart{
-        gap: 5px; 
-    }
-    .firstsection .middlepart .middleparttop .filterdescription{
-        gap: 5px; 
-    }
-    .grey-border{
-        height: 40px;
-        max-width: 200px;
-        padding-top: 16px;
-        font-size: 12px;
-      }
-    .grid-item .plusicon{
-        display: none;
-
-    }
-    .grid-item .hearticon{
-        display: none;
-
-    }
-    .designers header{
-        width: 100%;
-    }    
-    .designers header h1{
-        font-size: 16px;  
-    }    
-    .onlinedesigners{
-        grid-gap: 40px;
-        height: 120px;
-        column-gap: 15px;
-        display: flex;
-        flex-wrap: wrap;    
-    }  
-    .designers .onlinedesigners .grid-item2 .name{
-        font-size: 12px;
-    }       
-    .designers .onlinedesigners .grid-item2 .city{
-        color: #222;
-        font-size: 8px;
-        opacity: 0.6;
-        padding-top: 10px;
-    }  
-    .follow{
-        /* max-width: 132px; */
-        height: 35px;       
-    }
-    .heading{
-        gap: 100px;
-        padding-top: 500px;
-    }  
-    /* footerpart */
-
-    .footer-socialmedia{
-        max-width: 100%;
-        height: 18px;
-    }
-      
-    .footer-icon{
-        max-width: 20px;
-        height: 20px;
-     }
-     
+@media(max-width:1024px) {
+	.container {
+		max-width: 100%;
+	}
+	.sidebar {
+		max-width: 100%;
+		height: 50%;
+		padding: 0px;
+	}
+	.sidebar .top {
+		display: flex;
+		justify-content: center;
+	}
+	.sidebar .top h2 {
+		display: none;
+	}
+	.sidebar h6 {
+		font-size: 10px;
+	}
+	.container .sidebar .socialmedia h5 {
+		font-size: 8px;
+	}
+	.firstsection {
+		max-width: 100%;
+	}
+	.firstsection header {
+		max-width: 100%;
+	}
+	form.example input[type=search] {
+		padding: 0px;
+		font-size: 14px;
+		border: none;
+		background: #f1f1f1;
+	}
+	.firstsection header .topright {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.firstsection header .topright img {
+		width: 16px;
+		height: 16px;
+	}
+	.firstsection header .topright .account {
+		width: 30px;
+		height: 30px;
+	}
+	.firstsection header {
+		max-width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding-left: 0px;
+	}
+	.firstsection header .topright span {
+		display: none;
+	}
+	.firstsection header .topright {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.firstsection header .topright .submitbutton {
+		border: none;
+		background-color: #88556c;
+		font-size: 8px;
+		color: white;
+		border-radius: 6px;
+		text-align: center;
+		width: 100%;
+		padding: 5px 15px;
+	}
+	.firstsection .middlepart {
+		max-width: 100%;
+	}
+	.firstsection .middlepart .middleparttop {
+		max-width: 100%;
+		display: flex;
+		justify-content: space-between;
+		gap: 0px;
+	}
+	.firstsection .middlepart .middleparttop .middle-ul {
+		gap: 10px;
+		max-width: 100%;
+	}
+	.firstsection .middlepart .middleparttop .filterpart {
+		gap: 5px;
+	}
+	.firstsection .middlepart .middleparttop .filterdescription {
+		gap: 5px;
+	}
+	.grey-border {
+		height: 40px;
+		max-width: 200px;
+		padding-top: 16px;
+		font-size: 12px;
+	}
+	.grid-item .plusicon {
+		display: none;
+	}
+	.grid-item .hearticon {
+		display: none;
+	}
+	.designers header {
+		width: 100%;
+	}
+	.designers header h1 {
+		font-size: 16px;
+	}
+	.onlinedesigners {
+		grid-gap: 40px;
+		height: 120px;
+		column-gap: 15px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.designers .onlinedesigners .grid-item2 .name {
+		font-size: 12px;
+	}
+	.designers .onlinedesigners .grid-item2 .city {
+		color: #222;
+		font-size: 8px;
+		opacity: 0.6;
+		padding-top: 10px;
+	}
+	.follow {
+		max-height: 35px;
+	}
+	.heading {
+		gap: 100px;
+		padding-top: 500px;
+	}
+	/* footerpart */
+	.footer-socialmedia {
+		max-width: 100%;
+		height: 18px;
+	}
+	.footer-icon {
+		max-width: 20px;
+		height: 20px;
+	}
 }
 
-
-
-@media(max-width:768px){
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .container .sidebar{
-        max-width: 150px;
-    
-    }
-    .container .sidebar .icons li{
-        padding-top: 20px;
-        gap: 3px;
-      }   
-    .sidebar .icons img{
-        display: none;
-    }
-    .sidebar h6{
-        font-size: 6px;
-    }
-    .container .sidebar .socialmedia h5{
-        font-size: 6px;
-    }
-    .sidebar .socialmedia li p{
-        display: none;
-    }
-    form.example input[type=search] {
-        padding: 0px;
-        font-size: 10px;
-        background: #f1f1f1;
-    }
-
-    .firstsection header{
-        display: flex;
-        justify-content: center;
-    }
-    .firstsection header .topright{
-        display: flex;
-        justify-content: center;
-    }
-     .firstsection header .topright h5{
-        display: none;
-    }
-    .firstsection header .topright img{
-        width: 10px;
-        height: 10px;
-        display: flex;
-        justify-content: center;
-    }
-    .firstsection header .topright .account{
-        width: 15px;
-        height: 15px;
-    }
-    .firstsection header .topright .submitbutton{
-            background-color: #5d5588;
-            font-size: 8px;
-            border-radius: 3px;
-            padding: 5px 10px;           
-    }
-    .firstsection .middlepart .middleparttop .filterpart{
-        display: none;
-    }
-    .middlepart .middleparttop .middle-ul{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 10px;
-    }
-    .middlepart .middleparttop .amiddle-li{
-        padding: 0px;
-    }
-    .grid{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .grid-text{
-        display: none;
-    }
-    .grey-border{
-        display: none;
-      }
-    .designers header h1{
-        font-size: 10px;  
-    }    
-    .onlinedesigners{
-        grid-gap: 20px;
-        height: 60px;
-        column-gap: 5px;
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;   
-    }  
-    .designers .onlinedesigners .grid-item2 .name{
-        font-size: 8px;
-    }       
-    .designers .onlinedesigners .grid-item2 .city{
-        display: none;
-    }  
-    .designers h6{
-        display: none;
-    }
-    .follow{
-        height: 35px;       
-    }
-    .heading{
-        display: none
-    }  
-    .footer-socialmedia{
-        height: 18px;
-        display: flex;
-        justify-content: center;
-    }
-      
-     .footer-icon{
-        display: none;  
-     }
-     .smartacademy{
-         display: none;
-     }
-
+@media(max-width:768px) {
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.container .sidebar {
+		max-width: 150px;
+	}
+	.container .sidebar .icons li {
+		padding-top: 20px;
+		gap: 3px;
+	}
+	.sidebar .icons img {
+		display: none;
+	}
+	.sidebar h6 {
+		font-size: 6px;
+	}
+	.container .sidebar .socialmedia h5 {
+		font-size: 6px;
+	}
+	.sidebar .socialmedia li p {
+		display: none;
+	}
+	form.example input[type=search] {
+		padding: 0px;
+		font-size: 10px;
+		background: #f1f1f1;
+	}
+	.firstsection header {
+		display: flex;
+		justify-content: center;
+	}
+	.firstsection header .topright {
+		display: flex;
+		justify-content: center;
+	}
+	.firstsection header .topright h5 {
+		display: none;
+	}
+	.firstsection header .topright img {
+		width: 10px;
+		height: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	.firstsection header .topright .account {
+		width: 15px;
+		height: 15px;
+	}
+	.firstsection header .topright .submitbutton {
+		background-color: #5d5588;
+		font-size: 8px;
+		border-radius: 3px;
+		padding: 5px 10px;
+	}
+	.firstsection .middlepart .middleparttop .filterpart {
+		display: none;
+	}
+	.middlepart .middleparttop .middle-ul {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 10px;
+	}
+	.middlepart .middleparttop .amiddle-li {
+		padding: 0px;
+	}
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.grid-text {
+		display: none;
+	}
+	.grey-border {
+		display: none;
+	}
+	.designers header h1 {
+		font-size: 10px;
+	}
+	.onlinedesigners {
+		grid-gap: 20px;
+		height: 60px;
+		column-gap: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.designers .onlinedesigners .grid-item2 .name {
+		font-size: 8px;
+	}
+	.designers .onlinedesigners .grid-item2 .city {
+		display: none;
+	}
+	.designers h6 {
+		display: none;
+	}
+	.follow {
+		height: 35px;
+	}
+	.heading {
+		display: none
+	}
+	.footer-socialmedia {
+		height: 18px;
+		display: flex;
+		justify-content: center;
+	}
+	.footer-icon {
+		display: none;
+	}
+	.smartacademy {
+		display: none;
+	}
 }
