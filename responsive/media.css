@@ -85,7 +85,7 @@
     }
     .firstsection .middlepart .middleparttop .middle-ul{
         gap: 10px;
-        width: 100%;
+        max-width: 100%;
       }
     .firstsection .middlepart .middleparttop .filterpart{
         gap: 5px; 

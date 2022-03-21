@@ -1,56 +1,57 @@
 @media(max-width:1024px){
     .container{
         width: 100%;
+
+    
     }
-    .sidebar{
+    .container .sidebar{
         width: 100%;
-        height: 50%;
+        height: 100%;
         padding: 0px;
     }
-    .sidebar .top{
+    .container .sidebar .top{
         display: flex;
         justify-content: center;
     }
-    .sidebar .top h2{
+    .container h2{
         display: none;  
     }
-    .sidebar h6{
+    .container .sidebar h6{
         font-size: 10px;
     }
     .container .sidebar .socialmedia h5{
         font-size: 8px;
     }
-    .firstsection{
-        width: 100%;
+    .container .firstsection{
+        max-width: 100%;
         /* display: flex;
         flex-wrap: wrap; */
     }
-    .firstsection header{
-        width: 100%;
+    .container .firstsection header{
+        max-width: 100%;
         /* display: flex;
         flex-wrap: wrap; */
     }
-    form.example input[type=search] {
+    .container form.example input[type=search] {
         padding: 0px;
         font-size: 14px;
         border: none;
         background: #f1f1f1;
     }
-    .firstsection header .topright{
+    .container .firstsection header .topright{
         display: flex;
         flex-wrap: wrap;  
     }
-
-    .firstsection header .topright img{
-        width: 16px;
-        height: 16px;
+    .container .firstsection header .topright img{
+        max-width: 16px;
+        max-height: 16px;
     }
-    .firstsection header .topright .account{
-        width: 30px;
-        height: 30px;
+    .container.firstsection header .topright .account{
+        max-width: 30px;
+        max-height: 30px;
     }
-    .firstsection header {
-        width: 100%;
+    .container .firstsection header {
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
         flex-wrap:wrap;
@@ -70,24 +71,26 @@
             color: white;
             border-radius: 6px;
             text-align: center;
-            width: 100%;
+            max-width: 100%;
             padding: 5px 15px;           
     }
-  
     .heading{
-        gap: 100px;
-        padding-top: 500px;
-    }  
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* .table{
+        display: none;
+    }   */
     /* footerpart */
 
     .footer-socialmedia{
         max-width: 100%;
-        height: 18px;
+        max-height: 18px;
     }
       
     .footer-icon{
         max-width: 20px;
-        height: 20px;
+        max-height: 20px;
      }
      
 }
@@ -102,7 +105,10 @@
     }
     .container .sidebar{
         width: 100%;
-    
+        height: 100%;
+    }
+    .container h2{
+        display: none;  
     }
     .container .sidebar .icons li{
         padding-top: 20px;
@@ -153,64 +159,30 @@
             border-radius: 3px;
             padding: 5px 10px;           
     }
-    .firstsection .middlepart .middleparttop .filterpart{
+    .table{
         display: none;
     }
-    .middlepart .middleparttop .middle-ul{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 10px;
-    }
-    .middlepart .middleparttop .amiddle-li{
-        padding: 0px;
-    }
-    .grid{
+    .heading{
         display: flex;
         flex-wrap: wrap;
     }
-    .grid-text{
-        display: none;
-    }
-    .grey-border{
-        display: none;
-      }
-    .designers header h1{
-        font-size: 10px;  
-    }    
-    .onlinedesigners{
-        grid-gap: 20px;
-        height: 60px;
-        column-gap: 5px;
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;   
-    }  
-    .designers .onlinedesigners .grid-item2 .name{
-        font-size: 8px;
-    }       
-    .designers .onlinedesigners .grid-item2 .city{
-        display: none;
-    }  
     .designers h6{
         display: none;
     }
     .follow{
-        height: 35px;       
+        max-height: 35px;       
     }
-    .heading{
-        display: none
-    }  
     .footer-socialmedia{
-        height: 18px;
+        max-height: 18px;
         display: flex;
         justify-content: center;
     }
-      
      .footer-icon{
         display: none;  
      }
      .smartacademy{
          display: none;
+         padding: 0px;
      }
 
 }
