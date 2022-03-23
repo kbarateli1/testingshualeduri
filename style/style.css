@@ -78,6 +78,11 @@ body {
 	column-gap: 15px;
 	align-items: center;
 }
+
+.container .sidebar .profilephotos p {
+	
+	font-family: 'Smooch Sans', sans-serif;
+}
 /* header styles */
 header {
 	display: flex;
