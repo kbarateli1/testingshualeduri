@@ -184,6 +184,7 @@ header .submitbutton {
 }
 .table tr:hover {
 	background-color: gray;
+	transition: width 1s, background-color 3s, transform 1.5s;
 }
 .heading {
 	display: grid;
